@@ -1,6 +1,6 @@
 # Linkage  
 
-For this project, I performed a data linkage on two  datasets and explore different classification algorithms.  
+Data linkage will be performed on two  datasets and explore different classification algorithms.  
   
 The project is to be coded in Python 3. Seven (7) relevant data sets can be downloaded:
   
