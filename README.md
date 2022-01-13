@@ -9,7 +9,7 @@ Using amazon small.csv and google small.csv, implement the linkage between the t
 The performance is evaluated in terms of recall and precision. Ground truth (true matches) are given in amazon google truth small.csv.  
 recall = tp/(tp + fn)  
 precision = tp/(tp + f p)  
-where tp (true-positive) is the number of true positive pairs, f p the number of false positive pairs, tn the number of true negatives, and fn the number of false negative pairs. The four numbers should sum up to the total number of all possible pairs from the two datasets. (n = f p + fn + tp + tn)  
+where tp (true-positive) is the number of true positive pairs, f p the number of false positive pairs, tn the number of true negatives, and fn the number of false negative pairs. The four numbers should sum up to the total number of all possible pairs from the two datasets. (n = f p + fn + tp + tn)  
   
 *Blocking for efficient data linkage*   
 Implement a blocking method for the linkage of the amazon.csv and google.csv data sets and report on your proposed method and the quality of the results of the blocking.  
