@@ -2,6 +2,17 @@
 
 For this project, I performed a data linkage on two  datasets and explore different classification algorithms.  
   
+The project is to be coded in Python 3. Seven (7) relevant data sets can be downloaded:
+  
+• datasets for Data Linkage  
+– amazon.csv  
+– google.csv  
+– amazon google truth.csv  
+– amazon small.csv  
+– google small.csv  
+– amazon google truth small.csv  
+• dataset for Classification: all yeast.csv  
+  
 **Part 1 - Data Linkage** 
   
 *Na¨ıve data linkage without blocking*  
