@@ -5,7 +5,7 @@ For this project, I performed a data linkage on two  datasets and explore differ
 **Part 1 - Data Linkage** 
   
 *Na¨ıve data linkage without blocking*  
-Using amazon small.csv and google small.csv, implement the linkage between the two data sets and measure its performance. Comment on your choice of similarity functions, method of deriving a final score, and the threshold for determining if a pair is a match.  
+Using amazon small.csv and google small.csv, implement the linkage between the two data sets and measure its performance. Comment on your choice of similarity functions, method of deriving a final score, and the threshold for determining if a pair is a match.  
 The performance is evaluated in terms of recall and precision. Ground truth (true matches) are given in amazon google truth small.csv.  
 recall = tp/(tp + fn)  
 precision = tp/(tp + f p)  
@@ -31,7 +31,7 @@ where n is the total number of all possible record pairs from the two data sets.
   
 *Comparing Classification Algorithms*  
 compare the performance of the following 3 classification algorithms: k-NN (k=5 and k=10) and Decision tree algorithms on the all yeast dataset.  
-Use the data, all yeast, as transformed in the pre-processing (mean centered, median imputed). Train the classifiers using 2/3 of the data and test the classifiers by applying them to the remaining 1/3 of the data. Use each classification algorithm to predict the Class feature of the data (CYT or non-CYT) using the first 8 features (mcg-nuc).  
+Use the data, all yeast, as transformed in the pre-processing (mean centered, median imputed). Train the classifiers using 2/3 of the data and test the classifiers by applying them to the remaining 1/3 of the data. Use each classification algorithm to predict the Class feature of the data (CYT or non-CYT) using the first 8 features (mcg-nuc).  
 
 *Feature Engineering*  
 In order to achieve higher prediction accuracy for k-NN, one can investigate the use of feature generation and selection to predict the Class feature of the data. Feature generation involves the creation of additional features. Two methods are:  
