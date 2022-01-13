@@ -2,7 +2,7 @@
 
 Data linkage will be performed on two  datasets and explore different classification algorithms.  
   
-The project is to be coded in Python 3. Seven (7) relevant data sets can be downloaded:
+The project is to be coded in Python 3. Seven (7) relevant data sets will be used:
   
 • datasets for Data Linkage  
 – amazon.csv  
